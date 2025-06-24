@@ -1,62 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>BarberBot Logger</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            padding: 20px;
-        }
-        h1 {
-            color: #00ff99;
-        }
-        .live-ticker {
-            background-color: #1e1e1e;
-            border: 1px solid #333;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        .timestamp {
-            color: #888;
-            font-size: 0.9em;
-        }
-        details {
-            margin-top: 10px;
-            background-color: #1a1a1a;
-            border: 1px solid #333;
-            padding: 10px;
-        }
-        summary {
-            cursor: pointer;
-            font-weight: bold;
-            color: #00bfff;
-        }
-        pre {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
-    </style>
-</head>
-<body>
-    <h1>BarberBot Logger: Live Market Data</h1>
-
-    <div class="live-ticker" id="liveTicker">
-        <h2>Current Tickers</h2>
-        <div id="currentData">Waiting for update...</div>
-        <div class="timestamp" id="timestamp"></div>
-    </div>
-
-    <details open>
-        <summary>Previous Hour Logs</summary>
-        <pre id="previousData">No previous data yet...</pre>
-    </details>
-
-    <details>
-        <summary>Archived History</summary>
-        <pre id="historicalData">No historical data loaded yet...</pre>
-    </details>
-</body>
-</html>
+<html>
+<head><meta charset="UTF-8"><title>BarberBot Logger 5.0</title></head>
+<body style="font-family: monospace; background-color: black; color: white;">
+<h2>📈 BarberBot Logger 5.0</h2>
+<p>Last Updated: 2025-06-24 10:45:22 UTC</p>
+<table border="1" cellspacing="0" cellpadding="4">
+<tr><th>Ticker</th><th>Price</th><th>High</th><th>Low</th><th>Prev Close</th></tr><tr><td>GE</td><td>$247.81</td><td>248.46</td><td>238.62</td><td>239.37</td></tr><tr><td>DE</td><td>$514.08</td><td>522.9199</td><td>505.66</td><td>521.38</td></tr><tr><td>CAT</td><td>$366.23</td><td>367.1</td><td>357.733</td><td>360.52</td></tr><tr><td>MMM</td><td>$147.6</td><td>147.72</td><td>143.35</td><td>144.03</td></tr><tr><td>GS</td><td>$646.88</td><td>647.42</td><td>630.01</td><td>640.8</td></tr><tr><td>RTX</td><td>$145.81</td><td>147.0691</td><td>145.1</td><td>146.64</td></tr><tr><td>USB</td><td>$44.09</td><td>44.115</td><td>42.93</td><td>43.29</td></tr><tr><td>FDX</td><td>$229.23</td><td>229.29</td><td>223.74</td><td>226.04</td></tr><tr><td>BLK</td><td>$986.3</td><td>986.45</td><td>966.48</td><td>974.44</td></tr><tr><td>AXP</td><td>$299.63</td><td>299.87</td><td>291.88</td><td>298.59</td></tr><tr><td>SBUX</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>BKNG</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>GM</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>F</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>CVS</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>TGT</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>MO</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>SPGI</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ADI</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ADP</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ZTS</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>BDX</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>GILD</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ISRG</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>EW</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>VRTX</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>REGN</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>MRNA</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>PANW</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>SNPS</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>NOW</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>FTNT</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>CRWD</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>DDOG</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ZS</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>PLTR</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>ROKU</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>DKNG</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>RBLX</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>U</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>TTD</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>SHOP</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>BILL</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>AFRM</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>NET</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>DOCU</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>SQ</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>COIN</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>HOOD</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>SOFI</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>LCID</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>RIVN</td><td>$N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr></table><hr><h3>📜 Historical Log</h3></body></html>
