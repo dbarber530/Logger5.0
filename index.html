@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BarberBot Logger 5.0</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 40px;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #30363d;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #161b22;
+    }
+    tr:nth-child(even) {
+      background-color: #1e242c;
+    }
+    .timestamp {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <h1>📈 BarberBot Logger 5.0</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Ticker</th>
+        <th>Price</th>
+        <th>Change</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- LOGGER_INSERT -->
+    </tbody>
+  </table>
+
+  <div class="timestamp">Last Updated: <!-- LOGGER_TIMESTAMP --></div>
+</body>
+</html>
