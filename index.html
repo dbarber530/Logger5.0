@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BarberBot Logger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ff99;
+        }
+        .live-ticker {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .timestamp {
+            color: #888;
+            font-size: 0.9em;
+        }
+        details {
+            margin-top: 10px;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #00bfff;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>BarberBot Logger: Live Market Data</h1>
+
+    <div class="live-ticker" id="liveTicker">
+        <h2>Current Tickers</h2>
+        <div id="currentData">Waiting for update...</div>
+        <div class="timestamp" id="timestamp"></div>
+    </div>
+
+    <details open>
+        <summary>Previous Hour Logs</summary>
+        <pre id="previousData">No previous data yet...</pre>
+    </details>
+
+    <details>
+        <summary>Archived History</summary>
+        <pre id="historicalData">No historical data loaded yet...</pre>
+    </details>
+</body>
+</html>
